@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    style="@style/Base.TextAppearance.AppCompat"
+    android:padding="2dp"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MP3 Song List"
+        android:id="@+id/songlist"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark"
+        android:fontFamily="@android:string/cancel"
+        android:padding="10dp"
+        android:enabled="false"
+        android:clickable="false"
+        android:editable="false"
+        android:elegantTextHeight="false"
+        android:background="@color/abc_primary_text_material_dark" />
+</LinearLayout>
